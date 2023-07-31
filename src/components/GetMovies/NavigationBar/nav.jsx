@@ -40,7 +40,7 @@ const NavigationBar=()=>{
                 
               />
               <h3>{movie.title}</h3>
-              <p>{movie.overview}</p>
+              {/* <p>{movie.overview}</p> */}
             </div>
           ))}
         </div>

@@ -5,13 +5,14 @@ import NavigationBar from './components/GetMovies/NavigationBar/nav';
 
 
 
+
 function App() {
   return (
     <div>
       <NavigationBar/>
-      < getCategories/>
       <GetMovies/>
-      {/* <ImageContainer/> */}
+      < getCategories/>
+      
     </div>
   );
 }
